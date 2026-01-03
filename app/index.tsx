@@ -7,9 +7,8 @@ export default function Index() {
     <>
     <View className="flex-1 items-center justify-center bg-dark-100">
       <Text className="text-2xl font-extrabold text-red-500">Hii Jaiswal How are You Aditya </Text>
-       <Link href="/onboarding">
-        <Text className="text-lg font-semibold text-accent">Go to Onboarding</Text>
-      </Link>
+       <Link href="/onboarding" className="text-red-200 font-bold">Go to Onboarding</Link>
+       <Link href="/movie/avangers" className="text-red-200 font-bold">Avangers</Link>
     </View>
     {/* <Onboarding /> */}
     
